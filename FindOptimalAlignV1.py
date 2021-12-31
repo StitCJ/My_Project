@@ -1,3 +1,5 @@
+# This is for finding optimal alignment between 2 seqences.
+
 import numpy as np
 
 # Scoring Scheme
