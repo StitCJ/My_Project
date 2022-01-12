@@ -14,7 +14,7 @@ def mm(a, b) :
     else :
         return mismatch
 
-def find_optical_align_v1(sq1, sq2) :
+def find_optimal_align_v1(sq1, sq2) :
     """print matching score and optimal alignment"""
     if len(sq2) > len(sq1) :
         sq1, sq2 = sq2, sq1
@@ -71,4 +71,4 @@ def find_optical_align_v1(sq1, sq2) :
 
 sq1 = "AAGCGGTGA"
 sq2 = "AAGCGG"
-find_optical_align_v1(sq2, sq1)
+find_optimal_align_v1(sq2, sq1)
