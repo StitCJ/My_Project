@@ -1,4 +1,4 @@
-# This is for finding optimal alignment between 2 seqences.
+# This is for finding optimal alignment between 2 sequences.
 
 import numpy as np
 
